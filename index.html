@@ -5,26 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LojaWEB: onde vende tudo!</title>
-
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.min.css">
     <link rel="stylesheet" href="/css/default.css">
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
     <main>
-        <header>
-            <div class="logo">
+        <header class="row">
+            <div class="logo col-2">
                 <img src="./img/logo_amazon.png" alt="logomarca Amazon"
                 height="50">
             </div>
-            <div class="localizacao">
+            <div class="localizacao col-2">
                 <div>?</div>
                 <span>Olá</span>
                 <span>Selecione o endereço</span>
             </div>
-            <div class="pesquisa">
-                <form action="">
-                    <label for=""></label>
-                    <select name="tipoproduto" id="">
+            <div class="pesquisa col-4">
+                <form action="" class="formPesquisa">
+                    <label for="selectTipo"></label>
+                    <select name="tipoproduto" id="selectTipo"
+                    title="Tipo de Produto">
                         <option value="0"selected>
                             Todos os produtos
                         </option>
@@ -37,41 +39,42 @@
                     </select>
 
                     <label for=""></label>
-                    <input type="text" name="nomeProduto" id="">
+                    <input type="text" name="nomeProduto" 
+                    id="nomeProduto" title="Nome do Produto">
 
                     <label for=""></label>
                     <button type="submit" title="Fazer Pesquisa">?</button>
                     
                 </form>
-                <div class="area_de_pesquisa_todos">
-                    <img src="./img/todos.png" alt="Logo todos"
-                    height="35">
-                </div>
-                <div class="texto_para_pesquisa">
-                    <img src="./img/texto_para_pesquisa.png" alt="Area do texto de pesquisa"
-                    height="38">
-
-                </div>
-                <div class="lupa_para_pesquisar">
-                    <img src="./img/Lupa_de_pesquisa.png" alt="lupa de pesquisa"
-                    height="40">
-                </div>
-
+            </div>    
+            <div class="login col-2">
+                <span>
+                    Olá, faça seu login
+                </span> 
+                <span>
+                    Contas e Listas
+                </span>
+            </div>
+            <div class="pedidos col-1">
+                <span>
+                    Devoluções
+                </span>
+                <span>
+                    e Pedidos
+                </span>
 
             </div>
-            <div class="login">
-                <span>Olá, faça seu login</span>
-                <span>Contas e Listas</span>
+
+            <div class="carrinho col-1">
+                <span>
+                    0
+                </span>
+                <span>
+                    CAR
+                </span>
 
             </div>
-            <div class="pedidos">
-                <span>Devoluções</span>
-                <span>e Pedidos</span>
-                <img src="./img/carrinho.png" alt="logo carrinho"
-                height="16">
-                <span>Carrinho</span>
-
-            </div>
+                
         </header>
         <nav>
 
