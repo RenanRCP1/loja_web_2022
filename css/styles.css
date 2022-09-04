@@ -3,11 +3,15 @@ body{
     font-size: 13px;
     color: #222
 }
-header {
-    background-color: #232f3e;
+header{
+    background-color:rgb(19,25,33);
     color: #fff;
 }
 .logo img{
     height: auto;
     width: 100%;
+}
+nav{
+    background-color: rgb(35,47,62);
+    color: #fff;
 }
