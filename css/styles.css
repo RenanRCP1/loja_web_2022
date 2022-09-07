@@ -11,6 +11,15 @@ header{
     height: auto;
     width: 100%;
 }
+.icon{
+    color: #fff;
+}
+.formPesquisa{
+    display: inline-flexbox;
+}
+.formPesquisa select{
+    background-color: #dadada;
+}
 nav{
     background-color: rgb(35,47,62);
     color: #fff;
