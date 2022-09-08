@@ -1,0 +1,24 @@
+.white{
+    color: var(--white);
+}
+.bg-white{
+    background-color:var(--white);
+}
+.black{
+    color: var(--black);
+}
+.bg-black{
+    background-color:var(--black);
+}
+.gray{
+    color: var(--gray);
+}
+.bg-gray{
+    background-color: var(--gray);
+}
+.gold{
+    color: var(--gold);
+}
+.bg-gold{
+    background-color: var(--gold);
+}
