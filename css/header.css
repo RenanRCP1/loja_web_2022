@@ -42,6 +42,7 @@ nav{
     background-color: rgb(35,47,62);
     color: #fff;
 }
+
 @media (max-width: 460px) {
     .formPesquisa select {
         display: none;
