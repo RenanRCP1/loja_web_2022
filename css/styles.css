@@ -4,7 +4,10 @@ body{
     color: #222
 }
 
-section{
+section .texto1{
+    background-color: aqua;
+    height: 250px;
+    width: 250px;
     
 }
 
