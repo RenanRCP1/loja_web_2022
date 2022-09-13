@@ -1,53 +1,60 @@
-header{
-    background-color:rgb(19,25,33);
+header {
+    background-color: var(--blue-dark);
     color: #fff;
 }
-.logo img{
+
+.logo img {
     height: auto;
     width: 100%;
 }
-.icon{
+
+.icon {
     color: var(--white);
 }
-.formPesquisa{
+
+.formPerquisa {
     background-color: var(--white);
     border-radius: 10px;
 }
-.formPesquisa select,
-.formPesquisa input,
-.formPesquisa button{
-    height: 100%;
-    min-height: 40px;
+
+.formPerquisa {
+    border: solid 3px;
+}
+
+.formPerquisa select,
+.formPerquisa input,
+.formPerquisa button {
+    height: 40px;
     border: none;
     outline: none;
 }
-.formPesquisa select{
+
+.formPerquisa select {
     background-color: #dadada;
     padding-left: 10px;
     width: 35%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-.formPesquisa input{
+
+.formPerquisa input {
     width: 48%;
 }
-.formPesquisa button{
+
+.formPerquisa button {
     padding: 0 10px;
-    float: right;
     width: 15%;
+    float: right;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-nav{
-    background-color: rgb(35,47,62);
-    color: #fff;
-}
 
-@media (max-width: 460px) {
-    .formPesquisa select {
+@media (max-width:760px) {
+    .formPerquisa select {
         display: none;
     }
-    .formPesquisa input {
+
+    .formPerquisa input {
         width: 85%;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
