@@ -24,17 +24,61 @@ nav .promocional img {
     min-width: 300px;
 } */
 
-.carousel  {
-    height: 210px;
-    color: black;
-    padding: 0;
+.carousel {
+    height: 100%;
+    height: 300px;
+    padding: 10px 0;
 }
 
+/* Produtos */
 .produto {
     padding: 0 5px;
 }
 
+.produto a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.produto .valor span {
+    text-decoration: line-through;
+}
+
+.produto .descricao {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.produto-comum,
+.produto-amazon,
+.produto-noticia,
 .produto-item {
-    height: 300px;
-    color: white;
+    padding: 15px;
+    background-color: var(--white);
+    /* height: 100%;
+    min-height: 300px; */
+    height: 330px;
+}
+
+.produto-comum div {
+    height: 65%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.produto-amazon div {
+    width: 30%;
+    float: left;
+}
+
+.produto-noticia {}
+
+.produto-item div {
+    background-color: aqua;
+    height: 100%;
+    min-height: 100px;
+    max-height: 130px;
+    margin-bottom: 15px;
 }
