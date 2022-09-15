@@ -24,12 +24,10 @@ nav .promocional img {
     min-width: 300px;
 } */
 
-.carousel {
-    height: 200px;
-    background-image: url(/img/hd-wallpaper-4438124.jpg);
-    background-size: cover;
-    background-position: center;
-    color: white;
+.carousel  {
+    height: 210px;
+    color: black;
+    padding: 0;
 }
 
 .produto {

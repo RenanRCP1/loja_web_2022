@@ -39,6 +39,7 @@ header{
     width: 15%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    background-color: var(--gold);
 }
 
 @media (max-width: 760px) {
