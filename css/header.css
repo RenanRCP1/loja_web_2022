@@ -2,10 +2,12 @@ header{
     background-color: var(--blue-dark);
     color: #fff;
 }
+
 .logo img{
     height: auto;
     width: 100%;
 }
+
 .icon{
     color: var(--white);
 }
