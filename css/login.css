@@ -34,8 +34,8 @@
 
 .senha{
     text-align: center;
-    padding-left:600px ;
-    padding-right:600px ;
+    padding-left:762px ;
+    padding-right:755px ;
 
 }
 
@@ -44,8 +44,10 @@
     
 }
 .button2{
-    padding-bottom: 500px;
+    padding-top: 2%;
+    
 }
+
 .lore {
     text-align: left;
     padding-left: 40%;
