@@ -43,6 +43,13 @@ header{
     border-bottom-right-radius: 10px;
     background-color: var(--gold);
 }
+.carrinho{
+    position: relative;
+}
+.carrinho1{
+    position: relative;
+    padding-left: 4px;
+}
 
 @media (max-width: 760px) {
     .formPesquisa select {

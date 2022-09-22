@@ -28,14 +28,22 @@ nav .promocional img {
 
 .carousel {
     height: 100%;
-    height: 300px;
-    padding: 10px 0;
+    min-height: 500px;
+    background-image: url(/img/banner/61vMcktz42L._SX3000_.jpg);
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+section {
+    background-image: linear-gradient(transparent, var(--gray) 30%);
+    position: relative;
+    top: -250px;
 }
 
 .carousel2 {
     height: 100%;
     min-height: 300px;
-    background-image: url(/img/banner/61vMcktz42L._SX3000_.jpg);
+    background-image: url(/img/71UEST6qrZL._SX3000_.jpg);
     background-position: top;
     background-size: cover;
     position: relative;
@@ -111,3 +119,26 @@ nav .promocional img {
     color: var(--orange);
     text-decoration: underline;
 }
+
+.produto-categoria-carousel {
+    height: 250px;
+
+}
+.produto-categoria-carousel a{
+    text-decoration: none;
+    color: var(--blue);
+    font-size: 12px;
+}
+
+.setass{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -130px;
+}
+
+.setass .font-seta{
+    font-size: 50px;
+    color: gray;
+}
+
