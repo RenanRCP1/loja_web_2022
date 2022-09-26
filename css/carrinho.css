@@ -1,0 +1,85 @@
+body{
+    position: relative;
+}
+
+.fundo1{
+    background-color: gray;
+}
+.container1{
+    height: 100px;
+}
+
+.container2{
+    background-color: white;
+    color: black;
+    height: 500px;
+    margin: 20px;
+    margin-top: 270px;
+    margin-right: 400px;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+.borda{
+    display: flex;
+    position: relative;
+
+}
+.borda1{
+    display: flex;
+
+}
+h2{
+    font-size:20px ;
+}
+h3{
+    font-size: 10px;
+}
+.imagem_tv{
+    margin-top: ;
+    position: relative;
+}
+.imagem_suporte{
+    margin-top: -5px;
+}
+
+.texto_tv{
+    margin-top: 25px;
+    padding-left: 10px;
+}
+.texto_suporte{
+    margin-top: 5px;
+    padding-left: 10px;
+}
+.texto_colorido{
+    background-color:white;
+    display: flex;
+    height: 10px;
+}
+.texto_colorido1{
+    background-color: orange;
+}
+.texto_descolorido{
+    background-color: white;
+    padding-left: 5px;
+}
+.preço1{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.preço2{
+    padding-left: 280px;
+
+}
+.preço_total{
+    padding-left: 650px;
+}
+.checkbox1{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+
