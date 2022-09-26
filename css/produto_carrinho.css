@@ -1,27 +1,57 @@
-body{
-    position: relative;
-}
+.container4{
 
-.fundo1{
-    background-color: gray;
-}
-.container1{
-    height: 100px;
-}
-
-.container2{
-    background-color: white;
     color: black;
-    height: 500px;
+    height: 50px;
     margin: 20px;
-    margin-top: 270px;
     margin-right: 400px;
     padding: 0;
     box-sizing: border-box;
     position: relative;
+
+}
+.container5{
+    margin-top: 250px;
+    margin-right: 20px;
+    margin left: 15px;
+    height: 500px;
+    width: 930px;
+    background-color: white;
     
 }
+.container6{
+    margin-top: 250px;
+    margin-right: 20px;
+    height: 200px;
+    width: 366px;
+    background-color: white;
+    text-align: center;
 
+} 
+.container7{
+    margin-top: 470px;
+    margin-right: 20px;
+    margin-left: -386px;
+    height: 400px;
+    width: 366px;
+    background-color: white;
+
+}
+.container8{
+    height: 80px;
+    width: 932px;
+    background-color: white;
+    margin-top: 765px;
+    margin-left: -1337px;
+}
+.produtos_imagens{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.preço{
+    text-align: end;
+}
 .borda{
     display: flex;
     position: relative;
@@ -38,7 +68,6 @@ h3{
     font-size: 10px;
 }
 .imagem_tv{
-    margin-top: ;
     position: relative;
 }
 .imagem_suporte{
@@ -54,7 +83,7 @@ h3{
     padding-left: 10px;
 }
 .texto_colorido{
-    background-color:white;
+
     display: flex;
     height: 10px;
 }
@@ -64,6 +93,12 @@ h3{
 .texto_descolorido{
     background-color: white;
     padding-left: 5px;
+}
+.texto_geral{
+    padding-top: 30px;
+}
+.texto4 button{
+    background-color: rgb(255, 239, 14);
 }
 .preço1{
     padding-left: 100px;
@@ -82,4 +117,3 @@ h3{
 a{
     text-decoration: none;
 }
-
